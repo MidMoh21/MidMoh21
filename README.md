@@ -96,17 +96,24 @@ while(alive){
     repeat();
 }
 
-<picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MidMoh21/MidMoh21/pacman-output/bomberman-contribution-graph-dark.svg?game=bomberman">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MidMoh21/MidMoh21/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/MidMoh21/MidMoh21/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
-</picture>
 
 
 ```
 
 ---
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/MidMoh21/MidMoh21/pacman-output/bomberman-contribution-graph-dark.svg?game=bomberman">
 
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/MidMoh21/MidMoh21/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
+
+  <img
+    alt="Contribution Graph"
+    src="https://raw.githubusercontent.com/MidMoh21/MidMoh21/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
+</picture>
+
+---
 <h3 align="center">⭐ Thanks for visiting my profile! ⭐</h3>
 <p align="center">
 <i>"Code with purpose. Learn continuously. Build things that matter."</i>
