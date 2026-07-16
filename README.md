@@ -95,43 +95,14 @@ while(alive){
     improve();
     repeat();
 }
-```
 
----
+<picture data-importer="pacman">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MidMoh21/MidMoh21/pacman-output/bomberman-contribution-graph-dark.svg?game=bomberman">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MidMoh21/MidMoh21/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/MidMoh21/MidMoh21/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
+</picture>
 
-# 🐍 Contribution Snake
 
-> Enable the GitHub Action below to generate the snake animation automatically.
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: MidMoh21
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-After enabling it, display it with:
-
-```md
-![snake](https://raw.githubusercontent.com/MidMoh21/MidMoh21/output/github-contribution-grid-snake.svg)
 ```
 
 ---
